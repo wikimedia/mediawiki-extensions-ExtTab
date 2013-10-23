@@ -12,6 +12,6 @@ $messages['en'] = array(
 );
 
 $messages['qqq'] = array(
-	'pagedisqus-desc' => '{{desc|name=ExtTab|url=https://www.mediawiki.org/wiki/Extension:ExtTab}}',
+	'exttab-desc' => '{{desc|name=ExtTab|url=https://www.mediawiki.org/wiki/Extension:ExtTab}}',
 );
 
