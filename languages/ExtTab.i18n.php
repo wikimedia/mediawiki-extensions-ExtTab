@@ -45,6 +45,13 @@ $messages['ko'] = array(
 	'exttab-desc' => 'ExtJS를 기반으로 한 탭 컨트롤',
 );
 
+/** Macedonian (македонски)
+ * @author Bjankuloski06
+ */
+$messages['mk'] = array(
+	'exttab-desc' => 'Контрола со јазичиња на основа на ExtJS',
+);
+
 /** Russian (русский)
  * @author Okras
  */
