@@ -17,11 +17,39 @@ $messages['qqq'] = array(
 	'exttab-desc' => '{{desc|name=ExtTab|url=https://www.mediawiki.org/wiki/Extension:ExtTab}}',
 );
 
+/** Asturian (asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'exttab-desc' => 'Control de llingüeta basáu en ExtJS',
+);
+
 /** German (Deutsch)
  * @author Metalhead64
  */
 $messages['de'] = array(
 	'exttab-desc' => 'Eine auf ExtJS basierende Registerkartenkontrolle',
+);
+
+/** Spanish (español)
+ * @author Fitoschido
+ */
+$messages['es'] = array(
+	'exttab-desc' => 'Control de pestaña basado en ExtJS',
+);
+
+/** French (français)
+ * @author Gomoko
+ */
+$messages['fr'] = array(
+	'exttab-desc' => 'Contrôle des onglets basé sur ExtJS',
+);
+
+/** Galician (galego)
+ * @author Toliño
+ */
+$messages['gl'] = array(
+	'exttab-desc' => 'Control de lapela baseado en ExtJS',
 );
 
 /** Italian (italiano)
@@ -50,6 +78,13 @@ $messages['ko'] = array(
  */
 $messages['mk'] = array(
 	'exttab-desc' => 'Контрола со јазичиња на основа на ExtJS',
+);
+
+/** Occitan (occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'exttab-desc' => 'Contraròtle dels onglets basat sus ExtJS',
 );
 
 /** Russian (русский)
