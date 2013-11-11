@@ -52,6 +52,13 @@ $messages['gl'] = array(
 	'exttab-desc' => 'Control de lapela baseado en ExtJS',
 );
 
+/** Interlingua (interlingua)
+ * @author McDutchie
+ */
+$messages['ia'] = array(
+	'exttab-desc' => 'Controlo de schedas basate sur ExtJS',
+);
+
 /** Italian (italiano)
  * @author Beta16
  */
