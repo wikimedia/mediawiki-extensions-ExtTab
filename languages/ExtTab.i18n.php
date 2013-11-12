@@ -31,6 +31,13 @@ $messages['de'] = array(
 	'exttab-desc' => 'Eine auf ExtJS basierende Registerkartenkontrolle',
 );
 
+/** Zazaki (Zazaki)
+ * @author Gorizon
+ */
+$messages['diq'] = array(
+	'exttab-desc' => 'ExtJS, Tab kontrola deyne hereket kena',
+);
+
 /** Spanish (español)
  * @author Fitoschido
  */
