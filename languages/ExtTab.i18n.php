@@ -38,6 +38,13 @@ $messages['diq'] = array(
 	'exttab-desc' => 'ExtJS, Tab kontrola deyne hereket kena',
 );
 
+/** Lower Sorbian (dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'exttab-desc' => 'Kontrola rejtarkow na zakłaźe ExtJS',
+);
+
 /** Spanish (español)
  * @author Fitoschido
  */
@@ -57,6 +64,13 @@ $messages['fr'] = array(
  */
 $messages['gl'] = array(
 	'exttab-desc' => 'Control de lapela baseado en ExtJS',
+);
+
+/** Upper Sorbian (hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'exttab-desc' => 'Kontrola rajtarkow na zakładźe ExtJS',
 );
 
 /** Interlingua (interlingua)
