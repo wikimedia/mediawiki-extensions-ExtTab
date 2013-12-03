@@ -108,6 +108,13 @@ $messages['mk'] = array(
 	'exttab-desc' => 'Контрола со јазичиња на основа на ExtJS',
 );
 
+/** Dutch (Nederlands)
+ * @author Siebrand
+ */
+$messages['nl'] = array(
+	'exttab-desc' => 'Tabcontrole gebaseerd of ExtJS',
+);
+
 /** Occitan (occitan)
  * @author Cedric31
  */
