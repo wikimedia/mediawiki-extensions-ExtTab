@@ -142,3 +142,10 @@ $messages['sv'] = array(
 $messages['uk'] = array(
 	'exttab-desc' => 'Вкладка контролю на основі ExtJS',
 );
+
+/** Simplified Chinese (中文（简体）‎)
+ * @author Yfdyh000
+ */
+$messages['zh-hans'] = array(
+	'exttab-desc' => '基于ExtJS的选项卡控件',
+);
