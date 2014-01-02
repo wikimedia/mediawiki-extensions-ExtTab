@@ -52,6 +52,13 @@ $messages['es'] = array(
 	'exttab-desc' => 'Control de pestaña basado en ExtJS',
 );
 
+/** Persian (فارسی)
+ * @author Armin1392
+ */
+$messages['fa'] = array(
+	'exttab-desc' => 'کنترل نوار بر اساس ای‌ایکس‌تی‌جی‌اس',
+);
+
 /** French (français)
  * @author Gomoko
  */
