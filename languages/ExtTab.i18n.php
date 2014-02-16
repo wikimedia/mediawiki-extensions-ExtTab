@@ -108,6 +108,13 @@ $messages['ko'] = array(
 	'exttab-desc' => 'ExtJS를 기반으로 한 탭 컨트롤',
 );
 
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'exttab-desc' => 'Op <i lang="en" xml:lang="en">ExtJS</i> opjeboute Kontroll för Riggere.',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
