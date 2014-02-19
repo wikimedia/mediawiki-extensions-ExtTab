@@ -12,20 +12,17 @@ class ETParserFunctions {
 	}
 
 //	static $inlineParser = false;
-	static public function embedWiki( $input, $argv ) {
+	static public function embedWiki( $input, $argv, $parser ) {
 //		if(!ETParserFunctions::$inlineParser) {
 //			global $wgParserConf;
 //			ETParserFunctions::$inlineParser = wfCreateObject( $wgParserConf['class'], array( $wgParserConf ) );
 //		}
-		global $wgParser;
-
-	   	if ( ( $wgParser->getTitle() instanceof Title ) && ( $wgParser->getOptions() instanceof ParserOptions ) ) {
-			$result = $wgParser->recursiveTagParse( $input );
+		if ( ( $parser->getTitle() instanceof Title ) && ( $parser->getOptions() instanceof ParserOptions ) ) {
+			$result = $parser->recursiveTagParse( $input );
 		} else {
-			global $wgTitle;
 			$popt = new ParserOptions();
 			$popt->setEditSection( false );
-			$pout = $wgParser->parse( $input . '__NOTOC__', $wgTitle, $popt );
+			$pout = $parser->parse( $input . '__NOTOC__', $parser->getTitle(), $popt );
 			// / NOTE: as of MW 1.14SVN, there is apparently no better way to hide the TOC
 			SMWOutputs::requireFromParserOutput( $pout );
 			$result = $pout->getText();
@@ -35,7 +32,7 @@ class ETParserFunctions {
 
 	static $tabWidgetId = 0;
 	static function renderTabWidget ( $parser, $frame, $args ) {
-		global $smwgExtTabScriptPath, $wgTitle, $wgOut;
+		global $smwgExtTabScriptPath, $wgOut;
 		if ( self::$tabWidgetId == 0 ) {
 			$wgOut->addLink( array(
 					'rel'   => 'stylesheet',
