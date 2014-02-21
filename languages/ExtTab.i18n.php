@@ -143,6 +143,13 @@ $messages['ru'] = array(
 	'exttab-desc' => 'Набор вкладок, основанный на ExtJS',
 );
 
+/** Scots (Scots)
+ * @author John Reid
+ */
+$messages['sco'] = array(
+	'exttab-desc' => 'Tab control based oan ExtJS',
+);
+
 /** Swedish (svenska)
  * @author Ainali
  */
