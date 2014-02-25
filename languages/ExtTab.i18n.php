@@ -73,6 +73,13 @@ $messages['gl'] = array(
 	'exttab-desc' => 'Control de lapela baseado en ExtJS',
 );
 
+/** Hebrew (עברית)
+ * @author Yona b
+ */
+$messages['he'] = array(
+	'exttab-desc' => 'פקד לשונית מבוסס על ExtJS',
+);
+
 /** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
