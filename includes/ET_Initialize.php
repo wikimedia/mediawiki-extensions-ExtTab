@@ -6,7 +6,7 @@
  */
 if ( !defined( 'MEDIAWIKI' ) ) die;
 
-define( 'SMW_EXTTAB_VERSION', '1.0.0 alpha' );
+define( 'SMW_EXTTAB_VERSION', '1.1.0 alpha' );
 
 $smwgExtTabIP = $IP . '/extensions/ExtTab';
 $smwgExtTabScriptPath = $wgScriptPath . '/extensions/ExtTab';
@@ -15,6 +15,7 @@ $smwgExtTabEnabled = true;
 global $wgExtensionFunctions, $wgHooks, $wgAutoloadClasses, $smwgExtTabEnableLocalEdit;
 $wgExtensionFunctions[] = 'smwgExtTabSetupExtension';
 
+$wgMessagesDirs['ExtTab'] = $smwgExtTabIP . '/languages/i18n';
 $wgExtensionMessagesFiles['ExtTab'] = $smwgExtTabIP . '/languages/ExtTab.i18n.php';
 $wgExtensionMessagesFiles['ExtTabMagic'] = $smwgExtTabIP . '/languages/ExtTab.i18n.magic.php';
 $wgAutoloadClasses['ETParserFunctions'] = $smwgExtTabIP . '/includes/ET_ParserFunctions.php';
