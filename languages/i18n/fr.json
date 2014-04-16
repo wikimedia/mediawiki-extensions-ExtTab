@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Gomoko"
-        ]
-    },
-    "exttab-desc": "Contrôle des onglets basé sur ExtJS"
+	"@metadata": {
+		"authors": [
+			"Gomoko"
+		]
+	},
+	"exttab-desc": "Contrôle des onglets basé sur ExtJS"
 }

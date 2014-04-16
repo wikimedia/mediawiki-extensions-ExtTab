@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "John Reid"
-        ]
-    },
-    "exttab-desc": "Tab control based oan ExtJS"
+	"@metadata": {
+		"authors": [
+			"John Reid"
+		]
+	},
+	"exttab-desc": "Tab control based oan ExtJS"
 }

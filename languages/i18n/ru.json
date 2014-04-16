@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Okras"
-        ]
-    },
-    "exttab-desc": "Набор вкладок, основанный на ExtJS"
+	"@metadata": {
+		"authors": [
+			"Okras"
+		]
+	},
+	"exttab-desc": "Набор вкладок, основанный на ExtJS"
 }
