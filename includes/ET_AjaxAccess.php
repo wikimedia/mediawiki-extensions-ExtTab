@@ -32,4 +32,3 @@ function smwf_et_Access( $method, $params ) {
 	}
 	return $result;
 }
-?>

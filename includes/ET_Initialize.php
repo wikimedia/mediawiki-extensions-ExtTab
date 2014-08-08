@@ -105,5 +105,3 @@ function smwfExtTabGetJSLanguageScripts( &$pathlng, &$userpathlng ) {
 		$userpathlng = $smwgExtTabScriptPath . '/scripts/Language/ET_LanguageUserEn.js';
 	}
 }
-
-?>
