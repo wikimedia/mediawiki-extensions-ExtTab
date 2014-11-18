@@ -5,7 +5,7 @@
 
 class ETParserFunctions {
 	static function registerFunctions( &$parser ) {
-		$parser->setFunctionHook( 'tab', array( 'ETParserFunctions', 'renderTabWidget' ), SFH_OBJECT_ARGS );
+		$parser->setFunctionHook( 'tab', array( 'ETParserFunctions', 'renderTabWidget' ), Parser::SFH_OBJECT_ARGS );
 		$parser->setHook( "embedwiki", array( 'ETParserFunctions', 'embedWiki' ) );
 
 		return true;
