@@ -1,3 +1,5 @@
+/*jshint -W004 */
+
 var ETLanguage = Class.create();
 
 /**
@@ -59,7 +61,7 @@ ETLanguage.prototype = {
 		return msg;
 	}
 	
-}
+};
 
 // Singleton of this class
 
