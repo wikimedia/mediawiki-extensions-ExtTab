@@ -1,3 +1,5 @@
+/*jshint -W031 */
+
 var ExtTab = {tabWidgets : []};
 Ext.onReady(function(){
 	for(var i=0;i<ExtTab.tabWidgets.length;++i) {

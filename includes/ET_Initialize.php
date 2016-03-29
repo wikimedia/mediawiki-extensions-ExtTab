@@ -4,7 +4,9 @@
  *
  * Author: Ning
  */
-if ( !defined( 'MEDIAWIKI' ) ) die;
+if ( !defined( 'MEDIAWIKI' ) ) {
+	die;
+}
 
 define( 'SMW_EXTTAB_VERSION', '1.1.0 alpha' );
 
