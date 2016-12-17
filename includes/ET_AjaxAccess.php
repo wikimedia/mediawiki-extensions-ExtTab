@@ -23,7 +23,7 @@ function smwf_et_Access( $method, $params ) {
 				$popts = $wgOut->parserOptions();
 				$popts->setTidy( true );
 				$popts->enableLimitReport();
-				$html = $wgParser->parse( $revision->getText(), $wgTitle, $popts )->getText();
+				$html = $wgParser->parse( ContentHandler::getContentText( $revision->getContent() ), $wgTitle, $popts )->getText();
 			}
 			return $html;
 		}
