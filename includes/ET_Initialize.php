@@ -37,14 +37,7 @@ function smwgExtTabSetupExtension() {
 	global $wgParser, $wgHooks, $wgAutoloadClasses;
 
 	// register hooks
-	if ( defined( 'MW_SETPORTS_PARSERFIRSTCALLINIT' ) ) {
-		$wgHooks['ParserFirstCallInit'][] = 'ETParserFunctions::registerFunctions';
-	} else {
-		if ( class_exists( 'StubObject' ) && !StubObject::isRealObject( $wgParser ) ) {
-			$wgParser->_unstub();
-		}
-		ETParserFunctions::registerFunctions( $wgParser );
-	}
+	$wgHooks['ParserFirstCallInit'][] = 'ETParserFunctions::registerFunctions';
 
 	global $wgRequest;
 
