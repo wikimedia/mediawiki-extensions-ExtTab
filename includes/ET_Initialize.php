@@ -18,7 +18,6 @@ global $wgExtensionFunctions, $wgHooks, $wgAutoloadClasses, $smwgExtTabEnableLoc
 $wgExtensionFunctions[] = 'smwgExtTabSetupExtension';
 
 $wgMessagesDirs['ExtTab'] = $smwgExtTabIP . '/languages/i18n';
-$wgExtensionMessagesFiles['ExtTab'] = $smwgExtTabIP . '/languages/ExtTab.i18n.php';
 $wgExtensionMessagesFiles['ExtTabMagic'] = $smwgExtTabIP . '/languages/ExtTab.i18n.magic.php';
 $wgAutoloadClasses['ETParserFunctions'] = $smwgExtTabIP . '/includes/ET_ParserFunctions.php';
 
