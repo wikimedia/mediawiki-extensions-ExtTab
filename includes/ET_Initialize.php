@@ -17,9 +17,9 @@ $smwgExtTabEnabled = true;
 global $wgExtensionFunctions, $wgHooks, $wgAutoloadClasses, $smwgExtTabEnableLocalEdit;
 $wgExtensionFunctions[] = 'smwgExtTabSetupExtension';
 
-$wgMessagesDirs['ExtTab'] = $smwgExtTabIP . '/languages/i18n';
-$wgExtensionMessagesFiles['ExtTabMagic'] = $smwgExtTabIP . '/languages/ExtTab.i18n.magic.php';
-$wgAutoloadClasses['ETParserFunctions'] = $smwgExtTabIP . '/includes/ET_ParserFunctions.php';
+$wgMessagesDirs['ExtTab'] = __DIR__ . '/../languages/i18n';
+$wgExtensionMessagesFiles['ExtTabMagic'] = __DIR__ . '/../languages/ExtTab.i18n.magic.php';
+$wgAutoloadClasses['ETParserFunctions'] = __DIR__ . '/ET_ParserFunctions.php';
 
 function smwfExtTabGetAjaxMethodPrefix() {
 	$func_name = isset( $_POST["rs"] ) ? $_POST["rs"] : ( isset( $_GET["rs"] ) ? $_GET["rs"] : NULL );
