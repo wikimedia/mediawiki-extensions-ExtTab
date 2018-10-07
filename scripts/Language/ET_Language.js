@@ -28,29 +28,23 @@ ETLanguage.prototype = {
 	 * 			The language dependent message for the given ID.
 	 */
 	getMessage: function(id, type) {
+		var msg;
 		switch (type) {
 			case "user":
-				var msg = wgETUserLanguageStrings[id];
-				if (!msg) {
-					msg = id;
-				} 
+				msg = wgETUserLanguageStrings[id];
 				break;
-				
 			case "cont":
-				var msg = wgETContLanguageStrings[id];
-				if (!msg) {
-					msg = id;
-				} 
+				msg = wgETContLanguageStrings[id];
 				break;
 			default: 
-				var msg = wgETUserLanguageStrings[id];
+				msg = wgETUserLanguageStrings[id];
 				if (!msg) {
-					var msg = wgETContLanguageStrings[id];
-					if (!msg) {
-						msg = id;
-					}
+					msg = wgETContLanguageStrings[id];
 				}
 		} 
+		if (!msg) {
+			msg = id;
+		}
 			
 		// Replace variables
 		msg = msg.replace(/\$n/g,wgCanonicalNamespace); 
